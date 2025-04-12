@@ -1,0 +1,82 @@
+[14:54:26.669][INFO]: Successfully identified and loaded plugin botania:default
+[14:54:26.682][INFO]: Successfully identified and loaded plugin jeitweaker:default
+[14:54:26.748][INFO]: Successfully identified and loaded plugin crafttweaker:builtin
+[14:54:26.754][INFO]: Successfully identified and loaded plugin crafttweaker:builtin_forge
+[14:54:26.758][INFO]: Successfully identified and loaded plugin mekanism:crt_plugin
+[14:54:29.420][INFO]: The following mods have explicit CraftTweaker support through the default plugin:
+[14:54:29.422][INFO]: - 'botania' at version '1.18.2-435'
+[14:54:29.422][INFO]: - 'crafttweaker' at version '9.1.213'
+[14:54:29.422][INFO]: - 'createtweaker' at version '2.0.0.20'
+[14:54:29.422][INFO]: - 'initialinventory' at version '6.0.8'
+[14:54:29.422][INFO]: - 'jeitweaker' at version '3.0.0.9'
+[14:54:29.422][INFO]: - 'mekanism' at version '10.2.5'
+[14:54:29.422][INFO]: - 'thermal' at version '9.1.0.34'
+[14:54:29.422][INFO]: - 'thermal_foundation' at version '9.1.0.34'
+[14:54:35.156][INFO]: Started loading scripts for loader 'mekanismcontent'
+[14:54:35.474][INFO]: Compiling and executing scripts
+[14:54:36.051][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[14:54:36.053][INFO]: Loading file 'MekanismCustom.zs' with priority 0
+[14:54:36.057][ERROR]: Error while compiling scripts: 
+org.openzen.zencode.shared.CompileException: MekanismCustom.zs:10:0: Could not find type crafttweaker.api.util.MCResourceLocation
+	at TRANSFORMER/crafttweaker@9.1.213/org.openzen.zenscript.parser.ParsedFile.loadImports(ParsedFile.java:337)
+	at TRANSFORMER/crafttweaker@9.1.213/org.openzen.zenscript.parser.ParsedFile.compileCode(ParsedFile.java:303)
+	at TRANSFORMER/crafttweaker@9.1.213/org.openzen.zenscript.parser.ParsedFile.compileSyntaxToSemantic(ParsedFile.java:126)
+	at TRANSFORMER/crafttweaker@9.1.213/org.openzen.zencode.java.ScriptingEngine.createScriptedModule(ScriptingEngine.java:134)
+	at TRANSFORMER/crafttweaker@9.1.213/com.blamejared.crafttweaker.impl.script.scriptrun.runner.ScriptRunner.runScripts(ScriptRunner.java:86)
+	at TRANSFORMER/crafttweaker@9.1.213/com.blamejared.crafttweaker.impl.script.scriptrun.runner.ScriptRunner.run(ScriptRunner.java:69)
+	at TRANSFORMER/crafttweaker@9.1.213/com.blamejared.crafttweaker.impl.script.scriptrun.DecoratedRunKind$DecoratedScriptRunner.run(DecoratedRunKind.java:27)
+	at TRANSFORMER/crafttweaker@9.1.213/com.blamejared.crafttweaker.impl.script.scriptrun.ScriptRun.executeRun(ScriptRun.java:88)
+	at TRANSFORMER/crafttweaker@9.1.213/com.blamejared.crafttweaker.impl.script.scriptrun.ScriptRun.execute(ScriptRun.java:54)
+	at TRANSFORMER/mekanism@10.2.5/mekanism.common.integration.crafttweaker.content.CrTContentUtils.registerCrTGases(CrTContentUtils.java:101)
+	at MC-BOOTSTRAP/eventbus@5.0.3/net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:247)
+	at MC-BOOTSTRAP/eventbus@5.0.3/net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:239)
+	at MC-BOOTSTRAP/eventbus@5.0.3/net.minecraftforge.eventbus.EventBus.post(EventBus.java:302)
+	at MC-BOOTSTRAP/eventbus@5.0.3/net.minecraftforge.eventbus.EventBus.post(EventBus.java:283)
+	at LAYER PLUGIN/javafmllanguage@1.18.2-40.3.10/net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:106)
+	at LAYER PLUGIN/fmlcore@1.18.2-40.3.10/net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$5(ModContainer.java:125)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at LAYER PLUGIN/fmlcore@1.18.2-40.3.10/net.minecraftforge.fml.ModWorkManager$SyncExecutor.driveOne(ModWorkManager.java:42)
+	at LAYER PLUGIN/fmlcore@1.18.2-40.3.10/net.minecraftforge.fml.ModWorkManager$DrivenExecutor.drive(ModWorkManager.java:26)
+	at LAYER PLUGIN/fmlcore@1.18.2-40.3.10/net.minecraftforge.fml.ModLoader.waitForTransition(ModLoader.java:202)
+	at LAYER PLUGIN/fmlcore@1.18.2-40.3.10/net.minecraftforge.fml.ModLoader.lambda$dispatchAndHandleError$21(ModLoader.java:187)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at LAYER PLUGIN/fmlcore@1.18.2-40.3.10/net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:187)
+	at LAYER PLUGIN/fmlcore@1.18.2-40.3.10/net.minecraftforge.fml.ModLoader.lambda$gatherAndInitializeMods$11(ModLoader.java:164)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at LAYER PLUGIN/fmlcore@1.18.2-40.3.10/net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:164)
+	at TRANSFORMER/forge@40.3.10/net.minecraftforge.client.loading.ClientModLoader.lambda$begin$1(ClientModLoader.java:92)
+	at TRANSFORMER/forge@40.3.10/net.minecraftforge.client.loading.ClientModLoader.lambda$createRunnableWithCatch$4(ClientModLoader.java:112)
+	at TRANSFORMER/forge@40.3.10/net.minecraftforge.client.loading.ClientModLoader.begin(ClientModLoader.java:92)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.Minecraft.<init>(Minecraft.java:459)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.main.Main.main(Main.java:169)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at MC-BOOTSTRAP/fmlloader@1.18.2-40.3.10/net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$launchService$0(CommonClientLaunchHandler.java:31)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.Launcher.run(Launcher.java:106)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.Launcher.main(Launcher.java:77)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
+	at cpw.mods.bootstraplauncher@1.0.0/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:149)
+[14:54:36.197][INFO]: Queueing Infuse Type 'crafttweaker:the_vault_larimar' for registration.
+[14:54:36.197][INFO]: Queueing Infuse Type 'crafttweaker:the_vault_echo' for registration.
+[14:54:36.197][INFO]: Queueing Slurry 'crafttweaker:the_vault_clean_chromatic_iron_slurry' for registration.
+[14:54:36.197][INFO]: Queueing Slurry 'crafttweaker:the_vault_dirty_chromatic_iron_slurry' for registration.
+[14:54:36.198][INFO]: Execution for loader 'mekanismcontent' completed successfully
+[14:54:36.198][INFO]: Registering 0 custom gases.
+[14:54:36.205][INFO]: Registering 2 custom infuse types.
+[14:54:36.205][INFO]: Registered Infuse Type: 'crafttweaker:the_vault_echo'.
+[14:54:36.205][INFO]: Registered Infuse Type: 'crafttweaker:the_vault_larimar'.
+[14:54:36.213][INFO]: Registering 0 custom pigments.
+[14:54:36.218][INFO]: Registering 0 custom robit skins.
+[14:54:36.223][INFO]: Registering 2 custom slurries.
+[14:54:36.223][INFO]: Registered Slurry: 'crafttweaker:the_vault_dirty_chromatic_iron_slurry'.
+[14:54:36.223][INFO]: Registered Slurry: 'crafttweaker:the_vault_clean_chromatic_iron_slurry'.
+[14:54:45.007][INFO]: Started loading scripts for loader 'initialize'
+[14:54:45.045][INFO]: Compiling and executing scripts
+[14:54:45.048][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[14:54:45.061][INFO]: Execution for loader 'initialize' completed successfully
