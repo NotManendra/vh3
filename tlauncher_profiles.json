@@ -1,0 +1,19 @@
+{
+  "userSet": {
+    "selected": {
+      "username": "manendra",
+      "type": "ely"
+    },
+    "list": [
+      {
+        "id": 1656219,
+        "username": "manendra",
+        "displayName": "manendra",
+        "uuid": "658a9cac-2b6f-442b-8913-f442079f0d53",
+        "registeredAt": 1492848365,
+        "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzI1NiJ9.eyJpYXQiOjE3NDM2ODQ1OTcsInN1YiI6ImVseXwxNjU2MjE5IiwiY2xpZW50X2lkIjoidGxhdW5jaGVyIiwic2NvcGUiOiJvYnRhaW5fb3duX2FjY291bnRfaW5mbyBtaW5lY3JhZnRfc2VydmVyX3Nlc3Npb24ifQ.XDdQvNBUqZ-JYSz1JqvZ7rk7CkIvwkMrYON0aMh93dihoaZOJgIm5OCXLFNUK37wYIb8Gn79kU780neGgr1e2A",
+        "type": "ely"
+      }
+    ]
+  }
+}
