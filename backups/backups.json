@@ -1,0 +1,17 @@
+{
+  "backups": [
+    {
+      "worldName": "New World",
+      "createTime": 1743755400474,
+      "backupLocation": "C:\\Users\\manen\\AppData\\Roaming\\.tlauncher\\legacy\\Minecraft\\game\\backups\\2025-4-4_14-0-0.zip",
+      "size": 0,
+      "ratio": 0.83063686,
+      "sha1": "96bdf9d84b24ec4d4a946baf9afa3a1eef6309be",
+      "preview": "",
+      "snapshot": false,
+      "backupName": "automated",
+      "backupFormat": "ZIP",
+      "complete": true
+    }
+  ]
+}
